@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+
+     <table id="table">
+        
+        <tr id="text-input">
+            <td>
+                <input type="text"  id="input">
+            </td>
+        </tr>
+
+        <tr class="row-1">
+            <td onclick="inputData('7')">7</td>
+            <td onclick="inputData('8')">8</td>
+            <td onclick="inputData('9')">9</td>
+            <td onclick="inputData('/')">&#247;</td>
+        </tr>
+        
+        <tr class="row-1">
+            <td onclick="inputData('4')">4</td>
+            <td onclick="inputData('5')">5</td>
+            <td onclick="inputData('6')">6</td>
+            <td onclick="inputData('*')" id="multiply">X</td>
+        </tr>
+        <tr class="row-1">
+            <td onclick="inputData('1')">1</td>
+            <td onclick="inputData('2')">2</td>
+            <td onclick="inputData('3')">3</td>
+            <td onclick="inputData('-')">-</td>
+        </tr>
+        <tr class="row-1">
+            <td onclick="inputData('0')">0</td>
+            <td onclick="inputData('.')">.</td>
+            <td onclick="inputData('+')">+</td>
+            <td onclick="calculation()">=</td>
+        </tr>
+        
+        <tr id="clear">
+            <td onclick="clearAll()">CLEAR</td>
+        </tr>
+            
+           
+       </table>
+    <script src="calculator.js"></script>
+</body>
+</html>

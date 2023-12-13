@@ -1,0 +1,58 @@
+#table{
+    padding: 2rem;
+    margin-top: 0rem;
+    background-color:#575757;
+    border-radius: 1rem;
+    
+}
+.row-1 td{
+    border-radius: 0.4rem;
+    padding: 1.4rem;
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #ECECEC;
+    box-shadow: 2px 2px 1px  #99C089;
+   
+}
+.row-1 #multiply{
+    padding: 1.3rem;
+}
+
+body{
+     display: flex;
+    justify-content: center;
+    background-color: #99C089;
+    
+   
+} 
+#clear td{
+   border-radius: 0.8rem;
+   padding: 0.8rem 0rem;
+   text-align: center;
+   background-color: #eb6121;
+}
+#clear td:hover{
+   cursor: pointer;
+   background-color: #da581c;
+
+}
+#text-input td input{
+    padding: 1rem 2.7rem;
+    border-radius: 0.5rem;
+    background-color: #BCD1C0;
+    border: none;
+    text-align: end;
+    color: rgb(50, 102, 50);
+}
+#text-input td input:focus{
+    outline: none;
+}
+.row-1 td:hover{
+    background-color: #d1d1d1;
+    cursor: pointer;
+   
+}
+  
